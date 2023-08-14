@@ -9,7 +9,7 @@ class Repository(private val itemDAO: ItemDAO) {
         itemDAO.insertItem(item)
     }
 
-    fun getItem(): LiveData<List<Item>>{
+    fun getItems(): LiveData<List<Item>>{
         return itemDAO.getAllItems()
     }
 }
