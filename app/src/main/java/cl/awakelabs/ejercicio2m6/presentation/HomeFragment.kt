@@ -1,4 +1,4 @@
-package cl.awakelabs.ejercicio2m6
+package cl.awakelabs.ejercicio2m6.presentation
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,10 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.activityViewModels
-import cl.awakelabs.ejercicio2.R
-import cl.awakelabs.ejercicio2.databinding.ActivityMainBinding
 import cl.awakelabs.ejercicio2.databinding.FragmentHomeBinding
-import cl.awakelabs.ejercicio2m6.presentation.ItemVM
 
 
 class HomeFragment : Fragment() {

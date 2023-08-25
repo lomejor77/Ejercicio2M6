@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cl.awakelabs.ejercicio2m6.HomeFragment">
+    tools:context="cl.awakelabs.ejercicio2m6.presentation.HomeFragment">
 
 
     <EditText
