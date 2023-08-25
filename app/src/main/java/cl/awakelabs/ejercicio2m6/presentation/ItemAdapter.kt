@@ -26,6 +26,12 @@ class ItemAdapter: RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
         holder.render(item)
     }
 
+    fun setData(item: List<Item>) {
+        this.listItem.clear()
+        this.listItem.addAll(item)
+        notifyDataSetChanged()
+    }
+
     class ItemViewHolder(val view: ItemBinding): RecyclerView.ViewHolder(view.root) {
         fun render(item: Item){
             view.viewItem.text = item.name
